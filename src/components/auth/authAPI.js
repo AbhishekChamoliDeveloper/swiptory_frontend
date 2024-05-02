@@ -18,7 +18,7 @@ import {
 import { getStoriesByUser } from "../story/storyAPI";
 
 // Set base URL and withCredentials
-axios.defaults.baseURL = "http://localhost:4000";
+axios.defaults.baseURL = "https://swiptory-backend-bse5.onrender.com";
 axios.defaults.withCredentials = true;
 
 // ===================================== LOAD USER =====================================
